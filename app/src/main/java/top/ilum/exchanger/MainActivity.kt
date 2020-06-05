@@ -122,11 +122,12 @@ class MainActivity : AppCompatActivity() {
                             clipper = mathCheck(mathThingy)
                             calculatedValue =
                                 "$currencyValue $currencyFrom = $clipper $currencyTo"
-                        } else {
+                        }
+                        else {
                             clipper = currencyValue
                             calculatedValue = "$currencyValue $currencyFrom = $clipper $currencyTo"
-                            showResult(calculatedValue, clipper)
                         }
+                        showResult(calculatedValue, clipper)
                     }
                 }) }
                 else {
