@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Exchanger</string>
+    <string name="number1head">Что конвертируем</string>
+    <string name="number2head">В какую валюту конвериртируем</string>
+    <string name="number1placeholder">Введите число</string>
+    <string name="convertbtn">Конвертировать</string>
+
 </resources>
